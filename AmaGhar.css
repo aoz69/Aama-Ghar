@@ -1,0 +1,142 @@
+body{
+   /* background-image: url(bg.jpg);
+   background-repeat: no-repeat; */
+   margin: 0;
+   background-color: rgb(199, 193, 193);
+}
+
+#NavBar{
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    
+}
+
+#Home{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Link{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    margin-left: 5pc;
+    font-size: 17px;
+    font-family: 'Koh Santepheap', bold;
+}
+
+/* .ServicesLink{
+    color: white;
+    text-decoration: none;
+    padding: 14px;
+    margin-left: 10px;
+} 
+
+.SocialLink{
+    color: white;
+    text-decoration: none;
+    padding: 14px;
+    margin-left: 10px;
+} */
+
+#intro{
+    display: grid;
+    margin: 1pc;
+    grid-template-columns: auto auto;
+}
+
+#Name{
+    text-align: center;
+    font-size: xx-large;
+    top: 7pc;
+    position: relative;
+    font-family: 'Koh Santepheap', bold;
+    /* grid-column: 1 / span 2; */
+}
+
+#desc{
+    font-family: 'Koh Santepheap', cursive;
+} 
+
+#membs{
+    height: auto;
+    width: 98%;
+    background-color: rgba(255, 255, 255, 0.529);
+    margin: 1pc;
+    margin-top: -20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+h2{
+    font-family: 'Koh Santepheap', bold;
+    margin-left: 1pc;
+    margin-top: 5pc;
+    font-size: x-large;
+}
+
+h3{
+    font-family: 'Koh Santepheap', bold;
+    margin-left: 10pc;
+    font-size: x-large;
+}
+
+
+#BbgLogo{
+    padding: 1pc;
+    margin-left: 10pc;
+    border-radius: 10pc;
+}
+
+footer{
+    height: 6pc;
+    width: 100%;
+    background-color: black;
+
+}
+
+#box{
+    padding: 1pc;
+    display: flex;
+    justify-content: center;
+}
+
+.FooterInfo{
+    font-family: 'Koh Santepheap', bold;
+    color: white;
+    margin-left: 1pc;
+    font-size: 17px;
+    
+}
+
+.fab{
+    color: white;
+    position: relative;
+    top: 1px;
+    margin-left: 2pc;
+    font-size: 17px;
+}
+
+#border{
+    width: 95%;
+    height: 1px;
+    margin-left: 2pc;
+    margin-right: 2pc;
+    background-color: white;
+    margin-bottom: 1pc;
+}
+
+.FooterInfo1{
+    font-family: 'Koh Santepheap', bold;
+    color: white;
+    margin-left: 1pc;
+    font-size: 17px;
+    padding-left: 1pc;
+    display: flex;
+    justify-content: center;
+}
